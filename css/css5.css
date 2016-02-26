@@ -98,13 +98,23 @@ margin-top: 2px;
 .big img {
 margin-top: 26px;
 }
+.face:hover {
+  background-color: #415ea7;
+
+}
 form {
-margin-top: 6px;
+  padding-top: 10px;
+
+}
+form div {
+  width: 270px;
+  height: 40px;
+  padding-top: 15px;
+  margin: 0 auto;
 }
 form input {
 width: 256px;
 height: 37px;
-margin-top: 15px;
 background-color: black;
 font-family: 'Helvetica Neue Regular', Tahoma, suns-serif;
 font-size: 14px;
@@ -117,7 +127,7 @@ border-top: none;
 transition: all 0.30s ease-in-out;
 -webkit-transition: all 0.30s ease-in-out;
 -moz-transition: all 0.30s ease-in-out;
-outline:none;
+outline: none;
 }
 form input:focus {
 background-color: #1b5288;
@@ -126,23 +136,25 @@ border:#35a5e5 1px solid;
 box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 -webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 -moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+}
+form input:hover {
+  background-color: #415ea7;
 }
 #Sendme {
-padding-right: 5px;
-margin-left: -262px;
-margin-top: 20px;
+padding-right: 100px;
+margin-left: -265px;
+margin-top: 1px;
 width: 12px;
 height: 12px;
-
 text-align: left;
 }
 .text {
 width: 300px;
 top: 780px;
-left: 850px;
 color: #cccccc;
-margin-top: -19px;
-margin-left: 120px;
+margin-top: -33px;
+margin-left: -20px;
 }
 #but {
 width: 154px;
@@ -154,13 +166,16 @@ font-size: 14px;
 background-color: #4299d2;
 font-style: bold;
 color: white;
+margin-top: -15px;
 }
 #but:hover {
-background-color: #50aedb;
+background-color: #253ffb;
 }
 .policy {
 color: #cccccc;
 font-family: 'Helvetica Neue Regular', Tahoma, suns-serif;
 font-size: 11px;
-margin-top: 20px;
+margin-top: -10px;
+width: 350px;
+height: 38px;
 }
