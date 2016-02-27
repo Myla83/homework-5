@@ -57,17 +57,7 @@ nav li#ola {
 nav span {
   text-decoration: underline;
 }
-@font-face {
-    font-family: 'Helvetica Neue Regular';
-    src: url('fonts/helveticaneue-thin-webfont.eot');
-    src: url('fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
-         url('fonts/helveticaneue-thin-webfont.woff') format('woff'),
-         url('fonts/helveticaneue-thin-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 
-}
 
 section {
   margin-top: 215px;
@@ -176,6 +166,7 @@ background-color: #4299d2;
 font-style: bold;
 color: white;
 margin-top: -15px;
+border-radius: 4px;
 }
 #but:hover {
   background-color: #adf8fe;
