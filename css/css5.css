@@ -94,14 +94,23 @@ font-family:'Helvetica Neue Regular', Tahoma, suns-serif;
 font-size: 14px;
 text-align: center;
 margin-top: 2px;
+padding-top: 26px;
 }
+
 .big img {
-margin-top: 26px;
+  margin-top: 26px;
 }
-.face:hover {
-  background-color: #415ea7;
+.face {
+  background: url(img/face.png);
+  display: block;
+  width: 280px;
+  height: 37px;
+  margin: 0 auto;
 
 }
+.face:hover {
+  background: url(img/face1.png);
+  }
 form {
   padding-top: 10px;
 
@@ -169,7 +178,7 @@ color: white;
 margin-top: -15px;
 }
 #but:hover {
-background-color: #253ffb;
+  background-color: #adf8fe;
 }
 .policy {
 color: #cccccc;
