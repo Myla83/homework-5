@@ -96,7 +96,7 @@ padding-top: 26px;
   width: 280px;
   height: 37px;
   margin: 0 auto;
-
+  cursore: pointer;
 }
 .face:hover {
   background: url(img/face1.png);
@@ -127,14 +127,15 @@ transition: all 0.30s ease-in-out;
 -webkit-transition: all 0.30s ease-in-out;
 -moz-transition: all 0.30s ease-in-out;
 outline: none;
+border-radius: 5px;
 }
 form input:focus {
 background-color: #1b5288;
 color: #fff;
 border:#35a5e5 1px solid;
-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
--webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
--moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+box-shadow: 1px 1px 5px rgba(81, 203, 238, 1);
+-webkit-box-shadow: 1px 1px 5px rgba(81, 203, 238, 1);
+-moz-box-shadow: 1px 1px 5px rgba(81, 203, 238, 1);
 
 }
 form input:hover {
@@ -167,9 +168,10 @@ font-style: bold;
 color: white;
 margin-top: -15px;
 border-radius: 4px;
+cursor: pointer;
 }
 #but:hover {
-  background-color: #adf8fe;
+  background-color: #275675;
 }
 .policy {
 color: #cccccc;
